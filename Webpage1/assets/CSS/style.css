@@ -1,0 +1,104 @@
+@import "templatecolours.css";
+
+body{
+    max-width:960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Background colours */
+#news{background-color:#DBC9DF;}
+#events{background-color: #482a7e;}
+footer{background-color:#363636;}
+body{background-color:red;}
+header{background-color:green;}
+main{background-color: blue;}
+section{background-color:orange;}
+aside{background-color: yellow;}
+article{background-color:purple;}
+aside p,h3,h4{color:white;}
+/* Background colours */
+
+/* Nav Bar */
+nav>ul{ /*If ul is in nav do the following: */
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+}
+nav>ul>li{ /*If li is in ul and nav do the following: */
+    float:left;
+}
+nav>ul>li a{
+    display:block;
+    color:#000000;
+    text-align: center;
+    padding:10px 30px; /* Padding at the top + right (think of it as compass)*/
+    text-decoration: none;
+}
+li a:hover{
+    color:#363636;
+}
+/* Nav Bar */
+
+/*- - - - - - - - - - - - - - - -*/
+
+/*Image sizes*/
+#csdmlogo{width:300px;}
+#banner{max-width: 960px;}
+#hos{width:200px;
+    float:left;
+    padding-right:10px;}
+/*Image sizes*/
+
+/*- - - - - - - - - - - - - - - -*/
+
+/*Text fonts*/
+h1{
+    font-family:"roboto","sans-serif";
+    font-weight: 300;
+}
+p,h2,h3,h4,h5,a{
+    font-family:"roboto", sans-serif; /*Works both with and without: "" */
+    font-weight:400;
+}
+h3,h4,h5{
+    font-family:'roboto', sans-serif;
+    font-weight: 700;
+}
+/*Text fonts*/
+
+/*Margin*/
+aside h4, aside p{
+padding-top:20px;
+padding-left:10px;
+padding-right:10px;
+}
+aside h3{padding-top:10px;
+padding-left:10px;
+padding-right:10px;
+}
+aside{
+    padding-right:0px !important;
+    margin-top:-5px !important;
+}
+main{padding-right:0px !important;  }
+/*Margin*/
+
+/* Font sizes*/
+h1{font-size: 20px;}
+h2{font-size:18px;}
+h3{font-size:16px;}
+h4{font-size:14px;}
+p{font-size:13px;}
+a{font-size:13px;}
+/* Font sizes*/
+
+/*...*/
+footer>p{
+    width:150px;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+}
